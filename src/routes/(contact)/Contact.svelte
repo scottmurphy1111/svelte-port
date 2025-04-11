@@ -1,0 +1,49 @@
+<script lang="ts">
+	import SectionPanel from '$lib/components/SectionPanel.svelte';
+	import type { Contact } from '$lib/types';
+	import Icon from '@iconify/svelte';
+
+	let { contact }: { contact: Contact } = $props();
+
+	let phoneRef = $state<HTMLParagraphElement>();
+	let emailRef = $state<HTMLParagraphElement>();
+
+	const loadContact = () => {
+		const phone = '804.836.2326';
+
+		const user = 'scottmurphy1111';
+		const domain = 'gmail.com';
+
+		if (!phoneRef || !emailRef) return;
+		phoneRef.innerHTML = `<a href="tel:${phone}">${phone || '804.836.2326'}</a>`;
+
+		emailRef.innerHTML = `<a target="_blank" href="mailto:${user}@${domain}">${user}@${domain}</a>`;
+	};
+
+	$effect(() => {
+		loadContact();
+	});
+</script>
+
+<SectionPanel id="contact" title="A Special Note">
+	<div class="text-primaryBlue flex flex-col gap-8 text-xl font-bold">
+		<p>To Put it simply, I love to code ❤️</p>
+		<p>
+			Whether I'm freelancing, working on personal projects, or collaborating with other developers,
+			I find immense joy in the process of creative problem-solving and bringing user experiences to
+			life 🏅
+		</p>
+		<p>I look forward to hearing from you and partnering together in the future 🚀</p>
+		<div class="flex flex-col gap-2">
+			<div class="mb-1 h-1 w-24 bg-white"></div>
+			<div class="flex items-center gap-2">
+				<p bind:this={phoneRef}></p>
+				<Icon icon="lucide:phone" class="text-white" />
+			</div>
+			<div class="flex items-center gap-2">
+				<p bind:this={emailRef}></p>
+				<Icon icon="ic:outline-email" class="text-white" />
+			</div>
+		</div>
+	</div>
+</SectionPanel>

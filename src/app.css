@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* @import '$lib/images/bg-pattern-light.png'; */
+
+@theme {
+	--animate-gearSpin: gearSpin 9s linear infinite;
+
+	@keyframes gearSpin {
+		to {
+			transform: rotate(360deg);
+		}
+	}
+}
+
+@theme {
+	--color-primaryBlue: #0080ff;
+}
+
+body {
+	height: auto;
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+	background-color: #f3f4f6; /* Tailwind's gray-100 */
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	color: #fff;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+.bg-light {
+	background-image: url('/bg-pattern-light.png');
+}

@@ -1,0 +1,218 @@
+{
+	"nav": [
+		{
+			"value": "skills"
+		},
+		{
+			"value": "experience"
+		},
+		{
+			"value": "about"
+		},
+		{
+			"value": "testimonials"
+		},
+		{
+			"value": "contact"
+		}
+	],
+	"home": {
+		"name": "Scott Murphy",
+		"position": "Software Engineer",
+		"subHeadingA": "Software Engineering &",
+		"subHeadingB": "Web Development"
+	},
+	"skills": [
+		{
+			"icon": "material-symbols-light:desktop-mac-outline",
+			"skillsArray": ["HTML, CSS, JS/TS", "Svelte/React", "API", "Database"]
+		},
+		{
+			"icon": "material-symbols-light:build-sharp",
+			"skillsArray": ["UI & UX", "Optimization", "State Management", "Testing"]
+		},
+		{
+			"icon": "material-symbols-light:deployed-code-outline-sharp",
+			"skillsArray": ["Git", "VS Code", "Full Stack", "Design Tools"]
+		},
+		{
+			"icon": "material-symbols-light:social-leaderboard-outline-rounded",
+			"skillsArray": ["Leadership", "Mentorship", "Learning", "Collaboration"]
+		}
+	],
+	"experience": [
+		{
+			"company": "TruckSuite, LLC",
+			"logo": "/logos/trucksuite.svg",
+			"position": "Technical Lead",
+			"date": "Aug 2023 - Present",
+			"cityState": "Winston Salem, NC",
+			"tasks": [
+				"Design, coordinate and execute the development of our proprietary software that manages all aspects of TruckSuite’s products, customers, claims, invoicing, payments, rates, and reporting.",
+				"Build, manage and maintain corresponding databases for housing customer, vendor and sales data.",
+				"Manage domains/subdomains, s3 accounts, github, and testing sites for all aspects of the web development lifecycle."
+			]
+		},
+		{
+			"company": "HouseCanary",
+			"logo": "/logos/housecanary.svg",
+			"position": "Senior Frontend Engineer",
+			"date": "Mar 2022 – July 2023",
+			"cityState": "San Francisco, CA - Remote",
+			"tasks": [
+				"Lead the development, strategy, collaboration, documentation and maintenance for the HouseCanary Component Library built with Figma, Storybook and React/Typescript",
+				"Deliver composable, fully-typed, component-driven React Applications for HouseCanary Solutions, a web-based property evaluation SaaS platform.",
+				"Work cross team as member of the Solutions Platform (horizontal team) while communicating across all members of the organization as it pertains to Business Requirements, Code Reviews, Mentorship and Collaboration, mostly in an Agile setting",
+				"Deploy/Release code using CI/CD process including AWS, Github and Terraform"
+			]
+		},
+		{
+			"company": "Fanatics, Inc.",
+			"logo": "/logos/fanatics.svg",
+			"position": "Lead UI Engineer",
+			"date": "July 2021 – Mar 2022",
+			"cityState": "Tampa, FL - Remote",
+			"tasks": [
+				"Streamline all aspects of UI development for Fanatics Brands proprietary supply chain software using Storybook, React, Typescript, Styled Components, Figma, and Antd UI library",
+				"Lead development team in conception, development and maintenance of shared UI library used across Brands",
+				"Foster a development culture of coding consistency and excellence through mentorship, code reviews, office hours, weekly demos in an International setting (West Coast/East Coast, India)"
+			]
+		},
+		{
+			"company": "Capital One Financial Services",
+			"logo": "/logos/capitalone.svg",
+			"position": "Senior Software Engineer",
+			"date": "July 2017 –July 2021",
+			"cityState": "Richmond, VA",
+			"tasks": [
+				"Rapidly develop web experiences for Production and User Experience testing",
+				"Collaborate with designers, product owners and various stakeholders using Agile methodology and Front-End collaboration tools",
+				"Mentor associate developers and content creators on best practices",
+				"Lead integration of Gravity, Capital One’s visual, user experience and interaction design system of web components on the CardSite platform",
+				"Host a weekly roundtable developer discussion known as “Dev Corner”. Topics include exploring latest industry/web development trends, component build demos and platform alignment",
+				"Conduct Pull Request reviews to help our team meet tight daily production release deadlines",
+				"Write unit and regression tests using Jest and Protractor testing suites"
+			]
+		},
+		{
+			"company": "The Martin Agency",
+			"logo": "/logos/martinagency.png",
+			"position": "Senior Developer",
+			"date": "July 2016 - July 2017",
+			"cityState": "Richmond, VA",
+			"tasks": [
+				"Build and deploy modern and responsive websites and digital media banners for a large catalog of world renowned clients using HTML5, CSS3, JS, Google Ad Services and Adobe (Photoshop, Animate)",
+				"Work in highly collaborative environment to deliver spectacular rich media components that function seamlessly within webpages and meet restrictive size requirements"
+			]
+		},
+		{
+			"company": "Celerity IT, LLC (Capital One Contractor)",
+			"logo": "/logos/celerityit.png",
+			"position": "Frontend Developer",
+			"date": "June 2014 – July 2016",
+			"cityState": "Richmond, VA",
+			"tasks": [
+				"Rapidly and efficiently build production-level user-interfaces within small and large teams of designers, developers, project managers and stakeholders"
+			]
+		},
+		{
+			"company": "Rocket Pop Media",
+			"logo": "/logos/rocketpop.svg",
+			"position": "Web Developer",
+			"date": "January 2013 – June 2014",
+			"cityState": "Richmond, VA",
+			"tasks": [
+				"Manage all aspects of design & development specializing in web design, development and hosting for small businesses and non-profits",
+				"Extensive custom WordPress theme and plugin development using HTML, CSS, JS, PHP and MySQL",
+				"Coordinate with clients to determine project scope, budget and timeline"
+			]
+		}
+	],
+	"about": [
+		{
+			"heading": "Nickname",
+			"icon": "line-md:github-loop",
+			"description": "Friends call me Murph"
+		},
+		{
+			"heading": "Location",
+			"icon": "line-md:sunny-outline-loop",
+			"description": "Remote, Winston Salem, NC"
+		},
+		{
+			"heading": "School",
+			"icon": "line-md:moon-rising-loop",
+			"description": "Appalachian State"
+		},
+		{
+			"heading": "Years Coding",
+			"icon": "line-md:downloading-loop",
+			"description": "15 years+"
+		},
+		{
+			"heading": "Work Style",
+			"icon": "line-md:speed-loop",
+			"description": "I am known to get my hands dirty"
+		},
+		{
+			"heading": "Code Editor",
+			"icon": "line-md:cloud-alt-tags-loop",
+			"description": "VS Code"
+		},
+		{
+			"heading": "Necessities",
+			"icon": "line-md:coffee-loop",
+			"description": "Tailwind, Airpods, Coffee"
+		},
+		{
+			"heading": "Hobbies",
+			"icon": "line-md:star-pulsating-loop",
+			"description": "Golf, NBA, Music"
+		}
+	],
+	"testimonials": [
+		{
+			"copy": "Scott is a true workhorse—driven, reliable, and always eager for new challenges. In my 15+ years in web development, few match his determination to deliver high-quality results ahead of schedule. He's a constant learner, always exploring new tools and technologies, even on weekends. A rare “unicorn,” Scott combines strong technical acumen with a deep appreciation for design and UX, earning him the trust and admiration of his design partners through his pixel-perfect execution.",
+			"reporter": "Luke Simpson - Tech Lead"
+		},
+		{
+			"copy": "Scott is one of the best engineers I’ve worked with at Capital One. From day one, he’s been an exceptional teammate—hardworking, collaborative, approachable, and universally well-liked. He’s my go-to for tough problems, always ready to drop what he’s doing to help. His technical skill and problem-solving abilities are outstanding, and he’s a natural mentor and teacher. I’ve learned so much from him and have no doubt he’ll excel at whatever he sets his sights on.",
+			"reporter": "Jary Moth - Senior Software Engineer"
+		},
+		{
+			"copy": "Scott Murphy is a sharp, dependable engineer who brings creativity and efficiency to every project—big or small. He consistently delivers accurate results under tight deadlines, flags risks early, and clears obstacles with ease. He’s a great communicator, always willing to help others, and a pleasure to work with. I’m excited to see what he accomplishes next.",
+			"reporter": "Joel Shaw - Software Engineer"
+		},
+		{
+			"copy": "Scott consistently tackles challenging work, flags issues early, communicates clearly, and is always quick to support his teammates. Outstanding work—keep it up!",
+			"reporter": "Geoff Laux - Product Manager"
+		},
+		{
+			"copy": "Scott was a great collaborator—open to ideas and quick to develop creative code solutions for even the most challenging UI goals. His flexibility and teamwork were truly appreciated.",
+			"reporter": "Lance Rogers - Creative Director"
+		},
+		{
+			"copy": "Scott builds exceptional websites and prototypes, pairing strong coding skills with a sharp eye for visual design.",
+			"reporter": "John Jones - Senior Designer"
+		}
+	],
+	"contact": {
+		"socials": [
+			{
+				"site": "Github",
+				"icon": "/assets/images/portfolio/git.svg",
+				"link": "http://github.com/scottmurphy1111"
+			},
+			{
+				"site": "linkedIn",
+				"icon": "/assets/images/portfolio/linkd-in.svg",
+				"link": "https://www.linkedin.com/in/scottmurphy1111"
+			},
+			{
+				"site": "Stack Overflow",
+				"icon": "/assets/images/portfolio/stk-o.svg",
+				"link": "http://stackoverflow.com/users/5711949/scott-murphy"
+			}
+		]
+	}
+}
