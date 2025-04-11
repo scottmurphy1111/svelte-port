@@ -14,7 +14,6 @@
 
 	const { nav, home, skills, experience, about, testimonials, contact } = data;
 
-	// $inspect('pageScrollY', globalState.pageScrollY);
 	const resetPage = () => {
 		window.scrollTo(0, 0);
 	};
@@ -71,8 +70,6 @@
 			globalState.introAnimationComplete = true;
 		}, 2750);
 	});
-
-	$inspect('globalState', globalState);
 </script>
 
 <svelte:window onresize={() => handleSections()} onscroll={() => handleSections()} />

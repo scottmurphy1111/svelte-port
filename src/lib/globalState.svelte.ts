@@ -2,6 +2,7 @@ export const globalState = $state<{
 	introAnimationStart: boolean;
 	introAnimationComplete: boolean;
 	currentNav: 'home' | 'skills' | 'experience' | 'about' | 'testimonials' | 'contact';
+	showMobileNav: boolean;
 	skillsTop: number;
 	skillsBottom: number;
 	experienceTop: number;
@@ -16,6 +17,7 @@ export const globalState = $state<{
 	introAnimationStart: false,
 	introAnimationComplete: false,
 	currentNav: 'home',
+	showMobileNav: false,
 	skillsTop: 0,
 	skillsBottom: 0,
 	experienceTop: 0,

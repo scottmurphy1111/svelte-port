@@ -6,8 +6,6 @@
 	import NavItem from './NavItem.svelte';
 
 	let { nav } = $props();
-
-	let showMobileNav = $state(false);
 </script>
 
 <div
@@ -23,26 +21,26 @@
 				<Icon
 					icon="ci:hamburger-md"
 					class="text-white"
-					onclick={() => (showMobileNav = !showMobileNav)}
+					onclick={() => (globalState.showMobileNav = !globalState.showMobileNav)}
 				/>
-				{#if showMobileNav}
-					<div
-						class="absolute top-0 left-0 z-50 flex h-screen w-screen items-center justify-center bg-neutral-950"
+
+				<div
+					class="absolute top-0 left-0 z-50 flex h-screen w-screen items-center justify-center bg-neutral-950 opacity-0 transition-all duration-200 ease-in-out"
+					class:!opacity-100={globalState.showMobileNav}
+				>
+					<button
+						class="absolute top-4 right-4 text-2xl"
+						onclick={() => (globalState.showMobileNav = !globalState.showMobileNav)}
+						><Icon icon="zondicons:close-outline" /></button
 					>
-						<button
-							class="absolute top-4 right-4 text-2xl"
-							onclick={() => (showMobileNav = !showMobileNav)}
-							><Icon icon="zondicons:close-outline" /></button
-						>
-						<ul
-							class="z-40 m-0 flex min-h-auto w-full list-none flex-col items-center justify-between px-4"
-						>
-							{#each nav as item}
-								<NavItem value={item.value} onclick={() => (showMobileNav = !showMobileNav)} />
-							{/each}
-						</ul>
-					</div>
-				{/if}
+					<ul
+						class="z-40 m-0 flex min-h-auto w-full list-none flex-col items-center justify-between px-4"
+					>
+						{#each nav as item}
+							<NavItem value={item.value} />
+						{/each}
+					</ul>
+				</div>
 			</div>
 			<div class="relative ml-auto hidden w-auto items-center overflow-hidden md:flex">
 				<ul
