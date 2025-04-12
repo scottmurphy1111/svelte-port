@@ -25,8 +25,8 @@
 				/>
 
 				<div
-					class="absolute top-0 left-0 z-50 flex h-screen w-screen items-center justify-center bg-neutral-950 opacity-0 transition-all duration-200 ease-in-out"
-					class:!opacity-100={globalState.showMobileNav}
+					class="absolute top-0 left-0 z-50 flex h-screen w-screen translate-x-full items-center justify-center bg-neutral-950 transition-all duration-500 ease-in-out"
+					class:!translate-x-0={globalState.showMobileNav}
 				>
 					<button
 						class="absolute top-4 right-4 text-2xl"

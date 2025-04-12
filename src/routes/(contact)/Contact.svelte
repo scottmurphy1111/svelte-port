@@ -26,7 +26,7 @@
 </script>
 
 <SectionPanel id="contact" title="A Special Note">
-	<div class="text-primaryBlue flex flex-col gap-8 text-xl font-bold">
+	<div class="text-primaryBlue flex flex-col gap-8 text-xl font-bold normal-case">
 		<p>To Put it simply, I love to code ❤️</p>
 		<p>
 			Whether I'm freelancing, working on personal projects, or collaborating with other developers,
@@ -44,6 +44,13 @@
 				<p bind:this={emailRef}></p>
 				<Icon icon="ic:outline-email" class="text-white" />
 			</div>
+		</div>
+		<div class="flex gap-4">
+			{#each contact.socials as social}
+				<a href={social.link} target="_blank">
+					<Icon icon={social.icon} class="text-3xl text-white" />
+				</a>
+			{/each}
 		</div>
 	</div>
 </SectionPanel>

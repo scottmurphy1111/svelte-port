@@ -43,7 +43,7 @@
 
 <SectionPanel id="about" title="About Scott">
 	<GridRow>
-		<div class="mx-auto flex w-full flex-col flex-wrap gap-2">
+		<div class="mx-auto flex w-full flex-col flex-wrap gap-2 normal-case">
 			{#each aboutItems as item}
 				<AboutItem {item} {toggleDescription} />
 			{/each}
