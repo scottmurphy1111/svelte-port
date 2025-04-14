@@ -27,7 +27,7 @@
 
 <SectionPanel id="contact" title="A Special Note">
 	<div class="text-primaryBlue flex flex-col gap-8 text-xl font-bold normal-case">
-		<p>To Put it simply, I love to code ❤️</p>
+		<p>To put it simply, I love to code ❤️</p>
 		<p>
 			Whether I'm freelancing, working on personal projects, or collaborating with other developers,
 			I find immense joy in the process of creative problem-solving and bringing user experiences to
