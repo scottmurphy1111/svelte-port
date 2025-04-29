@@ -8,7 +8,7 @@
 </script>
 
 <SectionPanel id="skills" title="Skills & Tools">
-	<GridRow>
+	<div class="grid grid-cols-2 gap-4">
 		{#each skills as skill}
 			<div class="flex w-full flex-col items-stretch justify-center gap-4">
 				<div
@@ -24,5 +24,5 @@
 				</div>
 			</div>
 		{/each}
-	</GridRow>
+	</div>
 </SectionPanel>

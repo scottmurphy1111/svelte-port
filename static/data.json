@@ -25,19 +25,39 @@
 	"skills": [
 		{
 			"icon": "material-symbols-light:desktop-mac-outline",
-			"skillsArray": ["HTML, CSS, JS/TS", "Svelte / React", "Tailwind", "ORM"]
+			"skillsArray": [
+				"HTML, CSS, JavaScript/TypeScript",
+				"Modern Frontend Frameworks (React, Next.js, SvelteKit)",
+				"Responsive Design with Tailwind CSS",
+				"UI/UX Design Principles and Implementation"
+			]
 		},
 		{
-			"icon": "material-symbols-light:build-sharp",
-			"skillsArray": ["UI & UX", "Optimization", "API", "Database"]
+			"icon": "ion:server",
+			"skillsArray": [
+				"Backend Development (Databases, APIs, ORMs)",
+				"PostgreSQL, MySQL, AWS Cloud Services",
+				"API Design (REST, tRPC, GraphQL)",
+				"Database Abstraction with Prisma and Drizzle ORM"
+			]
 		},
 		{
 			"icon": "material-symbols-light:deployed-code-outline-sharp",
-			"skillsArray": ["Git", "VS Code", "Design Tools", "Deployment"]
+			"skillsArray": [
+				"Version Control with Git",
+				"Design & Prototyping (Figma and Other Tools)",
+				"Deployment & Scaling (Turborepo, Netlify, Vercel)",
+				"Continuous Integration & Continuous Deployment (CI/CD)"
+			]
 		},
 		{
 			"icon": "material-symbols-light:social-leaderboard-outline-rounded",
-			"skillsArray": ["Leadership", "Mentorship", "Learning", "Collaboration"]
+			"skillsArray": [
+				"Team Leadership and Project Ownership",
+				"Mentorship and Skill Development",
+				"Continuous Learning and Adaptability",
+				"Cross-functional Collaboration"
+			]
 		}
 	],
 	"experience": [

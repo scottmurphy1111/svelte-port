@@ -44,7 +44,7 @@
 			</div>
 			<div class="relative ml-auto hidden w-auto items-center overflow-hidden md:flex">
 				<ul
-					class="z-40 m-0 flex min-h-auto w-full list-none items-center justify-between gap-4 px-4"
+					class="z-40 m-0 flex min-h-auto w-full list-none items-center justify-between gap-8 px-4 lg:gap-16"
 				>
 					{#each nav as item}
 						<NavItem value={item.value} />
