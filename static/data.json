@@ -64,11 +64,12 @@
 		{
 			"company": "TruckSuite, LLC",
 			"logo": "/logos/trucksuite.svg",
-			"position": "Technical Lead",
+			"position": "Senior Software Engineer & Technical Lead",
 			"date": "Aug 2023 - Present",
 			"cityState": "Winston Salem, NC",
 			"tasks": [
 				"Design, coordinate and execute the development of our proprietary software that manages all aspects of TruckSuite's products, customers, claims, invoicing, payments, rates, and reporting.",
+				"Hands-on development of TruckSuite’s web-based apps built with TurboRepo, SvelteKit, and Prisma.",
 				"Build, manage and maintain corresponding databases for housing customer, vendor and sales data.",
 				"Manage domains/subdomains, s3 accounts, github, and testing sites for all aspects of the web development lifecycle."
 			]
