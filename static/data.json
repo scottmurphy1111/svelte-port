@@ -62,16 +62,16 @@
 	],
 	"experience": [
 		{
-			"company": "TruckSuite, LLC",
-			"logo": "/logos/trucksuite.svg",
+			"company": "murfweb.dev",
+			"logo": "/logos/murfweb.dev.svg",
 			"position": "Senior Software Engineer & Technical Lead",
 			"date": "Aug 2023 - Present",
 			"cityState": "Winston Salem, NC",
 			"tasks": [
-				"Design, coordinate and execute the development of our proprietary software that manages all aspects of TruckSuite's products, customers, claims, invoicing, payments, rates, and reporting.",
-				"Hands-on development of TruckSuite’s web-based apps built with TurboRepo, SvelteKit, and Prisma.",
-				"Build, manage and maintain corresponding databases for housing customer, vendor and sales data.",
-				"Manage domains/subdomains, s3 accounts, github, and testing sites for all aspects of the web development lifecycle."
+				"Design, coordinate, and execute the development of custom software solutions tailored to each client's operational, customer, financial, and reporting needs.",
+				"Lead hands-on development of modern web applications using frameworks and tools such as TurboRepo, React, SvelteKit and Prisma (ORM)",
+				"Build, manage, and maintain scalable databases to support client-specific data structures, including customer, vendor, and sales data.",
+				"Oversee domain and subdomain configuration, cloud services (e.g., S3, EC2), GitHub repositories, and testing environments throughout the full web development lifecycle."
 			]
 		},
 		{
