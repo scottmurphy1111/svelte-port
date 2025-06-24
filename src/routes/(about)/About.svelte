@@ -1,4 +1,5 @@
 <script lang="ts">
+	import AnimateOnScrollElement from '$lib/components/AnimateOnScrollElement.svelte';
 	import GridRow from '$lib/components/GridRow.svelte';
 	import SectionPanel from '$lib/components/SectionPanel.svelte';
 	import type { About, iAboutItem } from '$lib/types';
@@ -45,7 +46,9 @@
 	<GridRow>
 		<div class="mx-auto flex w-full flex-col flex-wrap gap-2 normal-case">
 			{#each aboutItems as item}
-				<AboutItem {item} {toggleDescription} />
+				<AnimateOnScrollElement>
+					<AboutItem {item} {toggleDescription} />
+				</AnimateOnScrollElement>
 			{/each}
 		</div>
 	</GridRow>

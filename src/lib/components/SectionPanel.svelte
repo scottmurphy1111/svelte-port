@@ -1,4 +1,6 @@
 <script lang="ts">
+	import AnimateOnScrollElement from './AnimateOnScrollElement.svelte';
+
 	interface Props {
 		id: string;
 		title?: string;
@@ -10,7 +12,9 @@
 </script>
 
 {#snippet sectionHeader(title: string)}
-	<h2 class="text:2xl mb-4 font-bold md:text-3xl">{title}</h2>
+	<AnimateOnScrollElement>
+		<h2 class="text:2xl mb-4 font-bold md:text-3xl">{title}</h2>
+	</AnimateOnScrollElement>
 {/snippet}
 
 <div
