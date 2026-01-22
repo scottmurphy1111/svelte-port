@@ -62,16 +62,17 @@
 	],
 	"experience": [
 		{
-			"company": "murfweb.dev",
-			"logo": "/logos/murfweb.dev.svg",
-			"position": "Senior Software Engineer & Technical Lead",
+			"company": "TruckSuite, LLC",
+			"logo": "/logos/trucksuite.svg",
+			"position": "Technical Lead",
 			"date": "Aug 2023 - Present",
 			"cityState": "Winston Salem, NC",
 			"tasks": [
-				"Design, coordinate, and execute the development of custom software solutions tailored to each client's operational, customer, financial, and reporting needs.",
-				"Lead hands-on development of modern web applications using frameworks and tools such as TurboRepo, SvelteKit and Prisma (ORM)",
-				"Build, manage, and maintain scalable databases to support client-specific data structures, including customer, vendor, and sales data.",
-				"Oversee domain and subdomain configuration, cloud services (e.g., S3, EC2), GitHub repositories, and testing environments throughout the full web development lifecycle."
+				"Manage web application and system implementation leading to a company wide sales increase from 5-10 contracts a month to over 50 in less than 2 years. Projects include trucksuite.com, sales representative and rates calculator sites as well as dealer management tools and integrations.",
+				"Lead hands-on development of modern web applications using frameworks and tools such as TurboRepo, SvelteKit, Docker, AWS, Prisma and PostgreSQL.",
+				"Design, coordinate and execute the development of our proprietary software that manages all aspects of TruckSuite’s products, customers, claims, invoicing, payments, rates, and reporting.",
+				"Build, manage and maintain corresponding databases for housing customers, vendors and sales data.",
+				"Manage domains/subdomains, s3 accounts, GitHub, and testing sites for all aspects of the web development lifecycle."
 			]
 		},
 		{
@@ -81,9 +82,9 @@
 			"date": "Mar 2022 - July 2023",
 			"cityState": "San Francisco, CA - Remote",
 			"tasks": [
-				"Lead the development, strategy, collaboration, documentation and maintenance for the HouseCanary Component Library built with Figma, Storybook and React/Typescript.",
-				"Deliver composable, fully-typed, component-driven React Applications for HouseCanary Solutions, a web-based property evaluation SaaS platform.",
-				"Work cross team as member of the Solutions Platform (horizontal team) while communicating across all members of the organization as it pertains to Business Requirements, Code Reviews, Mentorship and Collaboration, mostly in an Agile setting.",
+				"Lead the development, strategy, collaboration, documentation and maintenance for the HouseCanary Component Library built with Figma, Storybook and React/Typescript containing over 50 components used across multiple teams.",
+				"Deliver composable, fully typed, component-driven React Applications for HouseCanary Solutions, a web-based property evaluation SaaS platform.",
+				"Work cross team as member of the Solutions Platform (horizontal team) while communicating across all members of the organization as it pertains to Business Requirements, Code Reviews, Mentorship and Collaboration, within an Agile setting.",
 				"Deploy/Release code using CI/CD process including AWS, Github and Terraform."
 			]
 		},
@@ -96,7 +97,7 @@
 			"tasks": [
 				"Streamline all aspects of UI development for Fanatics Brands proprietary supply chain software using Storybook, React, Typescript, Styled Components, Figma, and Antd UI library.",
 				"Lead development team in conception, development and maintenance of shared UI library used across Brands.",
-				"Foster a development culture of coding consistency and excellence through mentorship, code reviews, office hours, weekly demos in an International setting (West Coast/East Coast, India)."
+				"Foster a development culture of coding consistency and excellence through mentorship, code reviews, office hours, weekly demos in an international setting (West Coast/East Coast, India)."
 			]
 		},
 		{
@@ -106,13 +107,11 @@
 			"date": "July 2017 - July 2021",
 			"cityState": "Richmond, VA",
 			"tasks": [
-				"Rapidly develop web experiences for Production and User Experience testing.",
-				"Collaborate with designers, product owners and various stakeholders using Agile methodology and Front-End collaboration tools.",
-				"Mentor associate developers and content creators on best practices.",
-				"Lead integration of Gravity, Capital One's visual, user experience and interaction design system of web components on the CardSite platform.",
+				"Rapidly develop web experiences for Production and User Experience testing, leading to an increase in testing capacity by 3x and driving incremental profitability of over $200M.",
+				"Collaborate with designers, product owners and various stakeholders using Agile methodology as well as mentoring associate developers and content creators on engineering best practices and trade-offs.",
+				"Lead integration of Gravity, Capital One’s visual, user experience and interaction design system.",
 				"Host a weekly roundtable developer discussion known as “Dev Corner”. Topics include exploring latest industry/web development trends, component build demos and platform alignment.",
-				"Conduct Pull Request reviews to help our team meet tight daily production release deadlines.",
-				"Write unit and regression tests using Jest and Protractor testing suites."
+				"Conduct Pull Request reviews to help our team meet tight daily production release deadlines."
 			]
 		},
 		{
@@ -163,7 +162,7 @@
 		{
 			"heading": "School",
 			"icon": "line-md:moon-rising-loop",
-			"description": "Appalachian State"
+			"description": "Appalachian State University"
 		},
 		{
 			"heading": "Years Coding",
@@ -188,7 +187,7 @@
 		{
 			"heading": "Hobbies",
 			"icon": "line-md:star-pulsating-loop",
-			"description": "Golf, Cycling, Basketball, Music"
+			"description": "Cycling, Basketball, Golf, Music"
 		}
 	],
 	"testimonials": [
