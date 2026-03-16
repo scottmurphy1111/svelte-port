@@ -1,19 +1,24 @@
 {
 	"nav": [
 		{
-			"value": "skills"
+			"value": "skills",
+			"icon": "mdi:basketball"
 		},
 		{
-			"value": "experience"
+			"value": "experience",
+			"icon": "mdi:bag-suitcase-outline"
 		},
 		{
-			"value": "about"
+			"value": "about",
+			"icon": "mdi:account-circle"
 		},
 		{
-			"value": "testimonials"
+			"value": "testimonials",
+			"icon": "mdi:comment-multiple-outline"
 		},
 		{
-			"value": "contact"
+			"value": "contact",
+			"icon": "mdi:email"
 		}
 	],
 	"home": {

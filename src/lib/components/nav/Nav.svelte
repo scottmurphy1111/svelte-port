@@ -1,5 +1,4 @@
 <script lang="ts">
-	import GridRow from '$lib/components/GridRow.svelte';
 	import Logo from '$lib/components/Logo.svelte';
 	import { globalState } from '$lib/globalState.svelte';
 	import Icon from '@iconify/svelte';
@@ -36,8 +35,8 @@
 					<ul
 						class="z-40 m-0 flex min-h-auto w-full list-none flex-col items-center justify-between px-4"
 					>
-						{#each nav as item}
-							<NavItem value={item.value} />
+						{#each nav as item (item.value)}
+							<NavItem value={item.value} icon={item.icon} />
 						{/each}
 					</ul>
 				</div>
@@ -46,8 +45,8 @@
 				<ul
 					class="z-40 m-0 flex min-h-auto w-full list-none items-center justify-between gap-8 px-4 lg:gap-16"
 				>
-					{#each nav as item}
-						<NavItem value={item.value} />
+					{#each nav as item (item.value)}
+						<NavItem value={item.value} icon={item.icon} />
 					{/each}
 				</ul>
 			</div>
