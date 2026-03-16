@@ -9,7 +9,7 @@
 
 <SectionPanel id="skills" title="Skills & Tools">
 	<div class="grid grid-cols-2 gap-4">
-		{#each skills as skill}
+		{#each skills as skill (skill.icon)}
 			<div class="flex w-full flex-col items-stretch justify-center gap-4">
 				<AnimateOnScrollElement>
 					<div
@@ -22,7 +22,7 @@
 					<div class="flex h-1 w-1/5 bg-white"></div>
 				</AnimateOnScrollElement>
 				<div class="flex flex-col items-stretch justify-center">
-					{#each skill.skillsArray as item}
+					{#each skill.skillsArray as item (item)}
 						<AnimateOnScrollElement>
 							<p class="text-base font-bold md:text-lg">{item}</p>
 						</AnimateOnScrollElement>

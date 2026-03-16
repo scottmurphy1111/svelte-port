@@ -6,24 +6,11 @@
 
 	let { contact }: { contact: Contact } = $props();
 
-	let phoneRef = $state<HTMLParagraphElement>();
-	let emailRef = $state<HTMLParagraphElement>();
+	const phone = '804.836.2326';
+	const user = 'scottmurphy1111';
+	const domain = 'gmail.com';
 
-	const loadContact = () => {
-		const phone = '804.836.2326';
-
-		const user = 'scottmurphy1111';
-		const domain = 'gmail.com';
-
-		if (!phoneRef || !emailRef) return;
-		phoneRef.innerHTML = `<a href="tel:${phone}">${phone || '804.836.2326'}</a>`;
-
-		emailRef.innerHTML = `<a target="_blank" href="mailto:${user}@${domain}">${user}@${domain}</a>`;
-	};
-
-	$effect(() => {
-		loadContact();
-	});
+	const email = `${user}@${domain}`;
 </script>
 
 <SectionPanel id="contact" title="A Special Note">
@@ -47,20 +34,24 @@
 			</AnimateOnScrollElement>
 			<AnimateOnScrollElement>
 				<div class="flex items-center gap-2">
-					<p bind:this={phoneRef}></p>
+					<p>
+						<a href={`tel:${phone}`}>{phone}</a>
+					</p>
 					<Icon icon="lucide:phone" class="text-white" />
 				</div>
 			</AnimateOnScrollElement>
 			<AnimateOnScrollElement>
 				<div class="flex items-center gap-2">
-					<p bind:this={emailRef}></p>
+					<p>
+						<a target="_blank" href={`mailto:${email}`}>{email}</a>
+					</p>
 					<Icon icon="ic:outline-email" class="text-white" />
 				</div>
 			</AnimateOnScrollElement>
 		</div>
 		<AnimateOnScrollElement>
 			<div class="flex gap-4">
-				{#each contact.socials as social}
+				{#each contact.socials as social (social.link)}
 					<a href={social.link} target="_blank">
 						<Icon icon={social.icon} class="text-3xl text-white" />
 					</a>

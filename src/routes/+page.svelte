@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { afterNavigate, beforeNavigate } from '$app/navigation';
+	import { afterNavigate } from '$app/navigation';
 	import BgImage from '$lib/components/BgImage.svelte';
 	import Nav from '$lib/components/nav/Nav.svelte';
 	import { globalState } from '$lib/globalState.svelte';

@@ -9,10 +9,10 @@
 
 <SectionPanel id="testimonials" title="Testimonials" light>
 	<GridRow>
-		{#each testimonials as testimonial}
+		{#each testimonials as testimonial (testimonial.reporter)}
 			<div class="col-span-2 flex w-full flex-col gap-2 normal-case">
 				<AnimateOnScrollElement>
-					<p class="text-base md:text-lg">{@html `"${testimonial.copy}"`}</p>
+					<p class="text-base md:text-lg">"{testimonial.copy}"</p>
 				</AnimateOnScrollElement>
 				<AnimateOnScrollElement>
 					<p class="text-sm text-gray-500 md:text-base">{testimonial.reporter}</p>

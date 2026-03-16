@@ -8,7 +8,7 @@
 
 <SectionPanel id="experience" title="Experience" light>
 	<div class="mx-auto flex w-full flex-col gap-8 normal-case">
-		{#each experience as job, i}
+		{#each experience as job, i (job.company)}
 			<div class="flex w-full flex-col gap-4">
 				<div class="flex flex-col gap-2">
 					<div class="flex w-full flex-col gap-2">
@@ -36,7 +36,7 @@
 					</div>
 				</div>
 				<ul class="list-disc pl-4 text-base md:text-lg">
-					{#each job.tasks as task}
+					{#each job.tasks as task (task)}
 						<AnimateOnScrollElement>
 							<li class="mb-2">{task}</li>
 						</AnimateOnScrollElement>

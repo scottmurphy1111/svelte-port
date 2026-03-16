@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { About, iAboutItem } from '$lib/types';
+	import type { iAboutItem } from '$lib/types';
 	import Icon from '@iconify/svelte';
 
 	let {
