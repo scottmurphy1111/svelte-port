@@ -2,23 +2,23 @@
 	"nav": [
 		{
 			"value": "skills",
-			"icon": "mdi:basketball"
+			"icon": "mdi:karate"
 		},
 		{
 			"value": "experience",
-			"icon": "mdi:bag-suitcase-outline"
+			"icon": "mdi:face-sunglasses"
 		},
 		{
 			"value": "about",
-			"icon": "mdi:account-circle"
+			"icon": "mdi:about"
 		},
 		{
 			"value": "testimonials",
-			"icon": "mdi:comment-multiple-outline"
+			"icon": "mdi:feedback"
 		},
 		{
 			"value": "contact",
-			"icon": "mdi:email"
+			"icon": "solar:volume-loud-bold"
 		}
 	],
 	"home": {
