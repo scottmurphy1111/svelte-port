@@ -101,6 +101,7 @@
 			"cityState": "Tampa, FL - Remote",
 			"tasks": [
 				"Streamline all aspects of UI development for Fanatics Brands proprietary supply chain software using Storybook, React, Typescript, Styled Components, Figma, and Antd UI library.",
+				"Update GoLang built Api for data delivery to the frontend.",
 				"Lead development team in conception, development and maintenance of shared UI library used across Brands.",
 				"Foster a development culture of coding consistency and excellence through mentorship, code reviews, office hours, weekly demos in an international setting (West Coast/East Coast, India)."
 			]
